@@ -1,0 +1,21 @@
+/* Fonts Generation */
+@font-face {
+  font-family: HARLOWSI;
+  src: url("../assets/fonts/HARLOWSI.TTF");
+}
+@font-face {
+  font-family: LMU;
+  src: url("../assets/fonts/LMU\ FARNAZ.TTF");
+}
+.headerFont {
+  font-family: HARLOWSI, LMU;
+}
+/* =================================================== */
+.link-item {
+  display: flex;
+  align-items: center;
+}
+.link-item:hover {
+  color: white !important;
+  transition: all 200ms;
+}

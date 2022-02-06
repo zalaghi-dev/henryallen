@@ -1,0 +1,8 @@
+.skillCard {
+  border: 5px solid darkred;
+  border-radius: 15px;
+}
+.progress {
+  width: 500px;
+  height: 40px;
+}

@@ -3,9 +3,13 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { HashRouter } from "react-router-dom";
+import Lang from "./lang/Lang";
+
 ReactDOM.render(
   <HashRouter>
-    <App />
+    <Lang>
+      <App />
+    </Lang>
   </HashRouter>,
   document.getElementById("root")
 );

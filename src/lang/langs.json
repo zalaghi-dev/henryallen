@@ -1,0 +1,16 @@
+{
+  "en": {
+    "headerTitle": "Henry Allen",
+    "aboutLink": "About Me",
+    "skillsLink": "Skills",
+    "contactLink": "Contact Me",
+    "certificatesLink": "Certificates"
+  },
+  "fa": {
+    "headerTitle": "امیرمهدی زلقی",
+    "aboutLink": "درباره من",
+    "skillsLink": "مهارت ها",
+    "contactLink": "تماس با من",
+    "certificatesLink": "گواهینامه ها"
+  }
+}
