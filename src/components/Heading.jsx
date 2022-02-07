@@ -10,7 +10,7 @@ function Heading() {
       const time = new Date();
       setDate({
         year: numberlength(time.getFullYear()),
-        month: numberlength(time.getMonth()),
+        month: numberlength(time.getMonth() + 1),
         date: numberlength(time.getDate()),
       });
       setClock({
@@ -27,7 +27,9 @@ function Heading() {
       style={{ zIndex: "10000" }}
       className="position-sticky w-100 top-0 bg-black text-white p-3 fs-4  d-flex flex-wrap justify-content-xl-start justify-content-center border-bottom border-5 border-danger"
     >
-      <div className="display-6  d-flex headerFont">{context.langs.headerTitle}</div>
+      <div className="display-6  d-flex headerFont">
+        {context.langs.headerTitle}
+      </div>
       <div className=" fs-6 p-2 d-flex justify-content-center justify-content-xl-end flex-wrap ">
         <Link
           className="text-decoration-none text-secondary px-2 link-item "

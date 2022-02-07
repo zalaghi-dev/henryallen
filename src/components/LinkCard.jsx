@@ -7,12 +7,12 @@ function LinkCard({ icon, name, link, className }) {
       rel="noreferrer"
       target="_blank"
       className={
-        "linkCard bg-black rounded-3 m-2 p-3  d-flex align-items-center text-decoration-none " +
+        "linkCard rounded-3 m-2 p-2  d-flex align-items-center text-decoration-none " +
         className
       }
     >
-      <div className=" text-danger fs-3   ">{icon}</div>
-      <div className="linkCardText fs-5 ps-2 text-white fw-bolder">{name}</div>
+      <div className=" text-danger fs-4 p-1   ">{icon}</div>
+      <div className="linkCardText fs-6  text-white fw-bolder">{name}</div>
     </a>
   );
 }

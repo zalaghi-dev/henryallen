@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/skillCard.css";
 function SkillCard({ icon, name, progress }) {
   return (
-    <div className="skillCard fw-bolder fs-5 d-flex justify-content-between flex-wrap align-items-center p-2 bg-black my-2">
+    <div className="skillCard border border-2 border-danger fw-bolder fs-5 d-flex justify-content-between flex-wrap align-items-center p-2 bg-black my-2">
       <div className="d-flex align-items-center px-3">
         <div className="text-danger fw-bolder fs-1 pe-2">{icon}</div>
         <div className="text-white">{name}</div>

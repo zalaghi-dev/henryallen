@@ -19,34 +19,42 @@ function Contact() {
       <LinkCard
         icon={<i className="fab fa-instagram   "></i>}
         link="https://www.instagram.com/henryallen.dev"
-        name="Instagram"
+        // name="Instagram"
       />
       <LinkCard
         icon={<i className="fab fa-whatsapp  "></i>}
         link="https://wa.me/message/WXN6BZMOJLYCB1"
-        name="Whatsapp"
+        // name="Whatsapp"
       />
       <LinkCard
         icon={<i className="fab fa-telegram  "></i>}
         link="https://t.me/henryallen_dev"
-        name="Telegram"
+        // name="Telegram"
       />
-      <LinkCard icon={<i className="fab fa-github  "></i>} link="" name="Github" />
+      <LinkCard
+        icon={<i className="fab fa-github  "></i>}
+        link="https://github.com/HenryAllen-dev"
+        // name="Github"
+      />
       <LinkCard
         icon={<i className="fab fa-discord  "></i>}
-        link="#"
-        name="Discord"
+        link="https://discordapp.com/users/564176079485403187/"
+        // name="Discord"
+      />
+      <LinkCard
+        icon={<i className="fab fa-skype  "></i>}
+        link="https://join.skype.com/invite/EY8o9Jc56csO"
+        // name="Skype"
       />
       <LinkCard
         icon={<i className="fab fa-linkedin  "></i>}
         link="#"
-        name="LinkedIn"
+        // name="LinkedIn"
       />
-      <LinkCard icon={<i className="fab fa-skype  "></i>} link="" name="Skype" />
       <LinkCard
         icon={<i className="fab fa-twitter  "></i>}
         link="#"
-        name="Twitter"
+        // name="Twitter"
       />
     </div>
   );

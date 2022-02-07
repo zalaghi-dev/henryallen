@@ -4,13 +4,15 @@
     "aboutLink": "About Me",
     "skillsLink": "Skills",
     "contactLink": "Contact Me",
-    "certificatesLink": "Certificates"
+    "certificatesLink": "Certificates",
+    "about": "I'm HenryAllen a Fullstack developer with JavaScript. i've started my career as a devepoler since 2021. I can make your Web and Android projects. I was born in 2005. You can hire me if you want from "
   },
   "fa": {
     "headerTitle": "امیرمهدی زلقی",
     "aboutLink": "درباره من",
     "skillsLink": "مهارت ها",
     "contactLink": "تماس با من",
-    "certificatesLink": "گواهینامه ها"
+    "certificatesLink": "گواهینامه ها",
+    "about": "من امیرمهدی زلقی هستم برنامه نویس فول استک با جاوااسکریپت. حرفه خود را به عنوان توسعه دهنده از 1400 شروع کردم. متولد 1383 و ساکن کرج هستم. اگر میخواهید میتوانید مرا استخدام کنید از "
   }
 }
