@@ -1,25 +1,7 @@
-import React, { useEffect, useState, useContext } from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { numberlength } from "../utils/numberlength";
 import { langContext } from "./../lang/Lang";
 function Heading() {
-  const [date, setDate] = useState({ year: "0000", month: "00", date: "00" });
-  const [clock, setClock] = useState({ h: "00", m: "00", s: "00" });
-  useEffect(() => {
-    setInterval(() => {
-      const time = new Date();
-      setDate({
-        year: numberlength(time.getFullYear()),
-        month: numberlength(time.getMonth() + 1),
-        date: numberlength(time.getDate()),
-      });
-      setClock({
-        h: numberlength(time.getHours()),
-        m: numberlength(time.getMinutes()),
-        s: numberlength(time.getSeconds()),
-      });
-    }, 1000);
-  }, []);
   const context = useContext(langContext);
 
   return (
@@ -57,13 +39,6 @@ function Heading() {
           <i className="fas fa-file-certificate p-2   "></i>{" "}
           {context.langs.certificatesLink}
         </Link>
-      </div>
-      <div className="headerFont ms-0 ms-xl-auto  d-flex align-items-center fs-6">
-        <i className="far fa-clock p-2   "></i>
-        {`${clock.h}:${clock.m}:${clock.s}`}
-
-        <i className="far fa-calendar p-2    "></i>
-        {`${date.month}/${date.date}/${date.year}`}
         <div
           onClick={() => {
             context.changeLang === "en"
