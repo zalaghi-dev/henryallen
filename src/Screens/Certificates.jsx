@@ -41,21 +41,19 @@ function Certificates() {
       ) : (
         <div className="d-flex flex-column align-items-center">
           <div className=" d-flex justify-content-center align-items-center">
-            <i
-              className="fas fa-arrow-alt-circle-left btn btn p-2 fs-1 text-danger"
-              onClick={() => sliderChange("left")}
-            />
+          
             <img
               className="col-12 col-md-8 border-bottom rounded-3 border-4 border-danger"
               src={pictures[picIndex]}
               alt="Not Found"
             />
-            <i
-              className="fas fa-arrow-alt-circle-right btn btn p-2 fs-1 text-danger"
-              onClick={() => sliderChange("right")}
-            />
+           
           </div>
           <div className="p-2">
+          <i
+              className="fas fa-arrow-alt-circle-left btn btn p-2 fs-1 text-danger"
+              onClick={() => sliderChange("left")}
+            />
             {pictures.map((el, index) =>
               index === picIndex ? (
                 <i
@@ -72,7 +70,10 @@ function Certificates() {
                   onClick={() => setpicIndex(index)}
                 ></i>
               )
-            )}
+            )} <i
+              className="fas fa-arrow-alt-circle-right btn btn p-2 fs-1 text-danger"
+              onClick={() => sliderChange("right")}
+            />
           </div>
         </div>
       )}
