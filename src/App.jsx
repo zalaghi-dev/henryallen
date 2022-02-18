@@ -26,7 +26,7 @@ export default function App() {
 
           <div className="w-100 pb-4 position-absolute">
             <Heading />
-            <div className="mt-5  w-75 m-auto">
+            <div className="mt-5 p-2 m-auto">
               <Routes>
                 <Route path="/skills" element={<Skills />} />
                 <Route path="/contact" element={<Contact />} />

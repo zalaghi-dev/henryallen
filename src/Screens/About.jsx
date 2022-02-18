@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function About() {
   const context = useContext(langContext);
   return (
-    <div className="row">
+    <div className="row w-75 m-auto">
       <div className="col-12 d-flex justify-content-center col-md-6">
         <img
           style={{ width: "300px" }}
