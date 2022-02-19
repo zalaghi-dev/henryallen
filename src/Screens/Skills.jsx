@@ -40,15 +40,15 @@ function Skills() {
         name="React Native"
         icon={<i className="fab fa-react    "></i>}
       />
+        <SkillCard
+          progress="100"
+          name="Git"
+          icon={<i className="fab fa-git-alt     "></i>}
+        />
       <SkillCard
         progress="0"
         name="NodeJs"
         icon={<i className="fab fa-node-js   "></i>}
-      />
-      <SkillCard
-        progress="80"
-        name="Github"
-        icon={<i className="fab fa-github     "></i>}
       />
     </>
   );
