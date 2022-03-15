@@ -8,7 +8,7 @@ import Skills from "./Screens/Skills";
 import Contact from "./Screens/Contact";
 import Certificates from "./Screens/Certificates";
 import Loading from "./components/Loading";
-import About from './Screens/About';
+import About from "./Screens/About";
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
@@ -18,12 +18,10 @@ export default function App() {
   }, []);
   return (
     <>
-    
       {isLoading ? (
         <Loading />
       ) : (
         <>
-
           <div className="w-100 pb-4 position-absolute">
             <Heading />
             <div className="mt-5 p-2 m-auto">
@@ -31,7 +29,7 @@ export default function App() {
                 <Route path="/skills" element={<Skills />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/certificates" element={<Certificates />} />
-                <Route path="/" element={<About/>}/>
+                <Route path="/" element={<About />} />
               </Routes>
             </div>
           </div>

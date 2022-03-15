@@ -1,8 +1,15 @@
 import React from "react";
 import "../styles/linkCard.css";
+import { motion } from "framer-motion";
 function LinkCard({ icon, name, link, className }) {
+  const item = {
+    hidden: { opacity: 0, y: -50 },
+    show: { opacity: 1, y: 0 },
+  };
   return (
-    <a
+    <motion.a
+      variants={item}
+      whileHover={{scale:1.1}}
       href={link}
       rel="noreferrer"
       target="_blank"
@@ -13,7 +20,7 @@ function LinkCard({ icon, name, link, className }) {
     >
       <div className=" text-danger fs-4 p-1   ">{icon}</div>
       <div className="linkCardText fs-6  text-white fw-bolder">{name}</div>
-    </a>
+    </motion.a>
   );
 }
 
