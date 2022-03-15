@@ -1,6 +1,5 @@
 import React from "react";
 import LinkCard from "../components/LinkCard";
-
 function Contact() {
   return (
     <div className="d-flex flex-wrap justify-content-center">
@@ -10,12 +9,14 @@ function Contact() {
         link="tel://+989106030260"
         name="+98 910 603 0260"
       />
+
       <LinkCard
         className="w-100 border-bottom border-3 border-danger bg-black text-white"
         icon={<i className="fas fa-envelope  "></i>}
         link="mailto:henryallen.dev@gmail.com"
         name="HenryAllen.dev@gmail.com"
       />
+
       <LinkCard
         icon={<i className="fab fa-instagram   "></i>}
         link="https://www.instagram.com/henryallen.dev"
